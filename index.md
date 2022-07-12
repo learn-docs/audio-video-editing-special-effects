@@ -1,37 +1,63 @@
-## Welcome to GitHub Pages
+# audio-video-editing-special-effects
+使用FFmpeg命令行带你入门音视频编辑器开发，实现音视频流的分离开与合并、多媒体格式互转、多媒体文件的裁剪与拼接以及FFmpeg filter的使用。（启蒙讲师：李超）
 
-You can use the [editor on GitHub](https://github.com/learn-docs/audio-video-editing-special-effects/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+> FFmpeg介绍及环境搭建
+本章将介绍FFmpeg和WebRTC使用场景及其区别，并带领大家完成FFmpeg环境的搭建。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+1-1 FFmpeg和WebRTC简介
 
-### Markdown
+1-2 FFmpeg环境搭建
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+> 音视频流的分离与合并
+本章将带大家实现如何从多媒体文件中单独取出音频或视频以及音视频合并。
 
-```markdown
-Syntax highlighted code block
+2-1 从多媒体文件中抽取音视频 
 
-# Header 1
-## Header 2
-### Header 3
+2-2 将音频与视频合并到一起 
 
-- Bulleted
-- List
+> 不同多媒体格式的互转
+本章将带大家实现各种多媒体文件格式的转换，如mp4转flv, flv转mp4。
 
-1. Numbered
-2. List
+3-1 多种多媒体格式互转
 
-**Bold** and _Italic_ and `Code` text
+> 多媒体文件的裁剪与拼接
+本章将带大家将一个音视频文件，截取出我们想到的小段音视频，并可发布到抖音等平台上推广使用，本章还会教大家如何将几段音视频文件合并成一个大的音视频文件。
 
-[Link](url) and ![Image](src)
-```
+4-1 音视频裁剪
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+4-2 多段音视频拼接
 
-### Jekyll Themes
+> 图片与视频互转
+本章将教会大家如何将视频转成一张一张图片，并可以从中选出优质的图片作为封底面，以及如何将拍摄的照片做成一个视频合集。
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/learn-docs/audio-video-editing-special-effects/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+5-1 将视频转成图片
 
-### Support or Contact
+5-2 将图片生成视频
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+> 视频特效处理
+本章将教会大家如何给视频加或者删除水印，如何实现画中画以及混屏等特效。
+
+6-1 给视频打水印
+
+6-2 将视频中的LOGO删除
+
+6-3 实现画中画
+
+6-4 视频混屏
+
+6-5 视频转场 
+
+>  音频特效处理
+本章将带大家实现如何将音视频倍速播放，以及如何实现混音等特效。
+
+7-1 音视频倍速播放
+
+7-2 音频混音
+
+> 课程总结
+
+- 1、音视频流的分离与合并；
+- 2、不同多媒体格式的互转；
+- 3、多媒体文件的裁剪与拼接；
+- 4、图片与视频的互转；
+- 5、音视频特效处理。
